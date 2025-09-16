@@ -7,10 +7,10 @@ Bu proje, Bootstrap kullanarak hazırlanmış bir "resim galerisi uygulamasıdı
 
 ## Özellikler
 
-- Responsive (mobil uyumlu) grid yapısı
-- Bootstrap 5 ile tasarım
-- Modal açıldığında büyük boyutlu görsel gösterimi
-- Özel stiller (çerçeve, başlık, kapatma butonu)
+- Responsive (mobil uyumlu) grid yapısı.
+- Bootstrap 5 ile tasarım.
+- Modal açıldığında büyük boyutlu görsel gösterimi.
+- Özel stiller (çerçeve, başlık, kapatma butonu).
 
 ## Kullanılan Teknolojiler
 
@@ -23,6 +23,7 @@ Bu proje, Bootstrap kullanarak hazırlanmış bir "resim galerisi uygulamasıdı
 ## Ekran Görüntüsü
 
 ![Galeri Önizleme](https://picsum.photos/id/234/600/400)
+Galerinin ilk görüntüsü.
 
 ## Nasıl Çalıştırılır?
 
@@ -41,5 +42,5 @@ Bu proje, Bootstrap kullanarak hazırlanmış bir "resim galerisi uygulamasıdı
 ## Geliştirici
 
 - Ad Soyad: Aliye Bulut
-- Bu proje, HTML/CSS/JS ve Bootstrap, ve GitHub bilgilerini pekiştirmek için hazırlanmıştır.
+- Bu proje, HTML/CSS/JS, Bootstrap, ve GitHub bilgilerini pekiştirmek için hazırlanmıştır.
 
