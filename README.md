@@ -23,19 +23,21 @@ Bu proje, Bootstrap kullanarak hazırlanmış bir "resim galerisi uygulamasıdı
 ## Ekran Görüntüsü
 
 ![Galeri Önizleme](https://picsum.photos/id/234/600/400)
-Galerinin ilk görüntüsü.
+
+*Yukarıdaki görsel, galerideki ilk resmin örneğidir.*
 
 ## Nasıl Çalıştırılır?
 
 1. GitHub üzerinden bu repoyu klonlayın.
-2. Visual Studio Code ile projeyi açın.
+  [GitHub Repository Linki](https://github.com/AlyBlt/BE129_Gorev3_AliyeBulut.git)
+2. Visual Studio ile projeyi açın.
 3. `index.html` dosyasını bir tarayıcıda açarak projeyi görüntüleyin.
 
 ## Proje Yapısı
 
-   --proje-klasörü--
-   index.html
-   README.md
+### Proje Klasörü
+- index.html
+- README.md
 
 
 
