@@ -17,22 +17,18 @@
         }
 
         .btn-close.custom-close {
-            filter: brightness(0.2) invert(0.6);
-            background-color: rgba(0, 128, 0, 0.5);
+            background-color: lightgray;
             border-radius: 6px;
             width: 20px;
             height: 20px;
-            transition: background-color 0.3s ease, filter 0.3s ease;
-            font-size: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            padding-bottom: 0px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
         }
 
             .btn-close.custom-close:hover {
-                background-color: rgba(0, 100, 0, 0.1);
-                filter: brightness(1.5);
+                background-color: darkgray;
                 cursor: pointer;
+                transform: scale(1.1);
             }
         
     </style>
@@ -45,71 +41,83 @@
         <header>
             <h4 class="text-center fw-bold p-2 custom-header">Aliye'nin Resim Galerisi</h4>
         </header>
-        <div class="row">
-            <div class="col-sm-6 col-md-4 mb-2">
-                <div class="custom-frame d-flex justify-content-center ">
-                    <img src="https://picsum.photos/id/234/300/200" class="img-fluid w-100 d-block" />
+        <main>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 mb-2">
+                    <div class="custom-frame d-flex justify-content-center ">
+                        <img src="https://picsum.photos/id/234/300/200" class="img-fluid w-100 d-block" alt="eyfelKulesi" data-large="https://picsum.photos/id/234/900/600"
+                             data-title="Eiffel Tower" data-desc="Paris, 13.11.2026" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2">
+                    <div class="custom-frame d-flex justify-content-center ">
+                        <img src="https://picsum.photos/id/171/300/200" class="img-fluid w-100 d-block" alt="yagmurDamlasi"
+                             data-title="Cam ve Yaðmur" data-desc="Hayatýn akýþý, 18.02.2027" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2">
+                    <div class="custom-frame d-flex justify-content-center ">
+                        <img src="https://picsum.photos/id/428/300/200" class="img-fluid w-100 d-block" alt="sariEv"
+                             data-title="Sarý Ev ve Bisiklet" data-desc="Ýtalya, 23.05.2027" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2">
+                    <div class="custom-frame d-flex justify-content-center ">
+                        <img src="https://picsum.photos/id/613/300/200" class="img-fluid w-100 d-block" alt="kopruSA"
+                             data-title="Golden Gate Bridge" data-desc="San Francisco, 02.04.2028" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2">
+                    <div class="custom-frame d-flex justify-content-center ">
+                        <img src="https://picsum.photos/id/819/300/200" class="img-fluid w-100 d-block" alt="masseyHall"
+                             data-title="Massey Hall Auditorium" data-desc="Toronto, 28.04.2028" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2">
+                    <div class="custom-frame d-flex justify-content-center ">
+                        <img src="https://picsum.photos/id/299/300/200" class="img-fluid w-100 d-block" alt="empireState"
+                             data-title="Empire State Building" data-desc="New York, 05.05.2028" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2">
+                    <div class="custom-frame d-flex justify-content-center ">
+                        <img src="https://picsum.photos/id/863/300/200" class="img-fluid w-100 d-block" alt="dogaGunes1"
+                             data-title="Güneþ ve Doða" data-desc="Seri 1, 08.08.2028" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2">
+                    <div class="custom-frame d-flex justify-content-center ">
+                        <img src="https://picsum.photos/id/835/300/200" class="img-fluid w-100 d-block" alt="cicekKurabiye"
+                              data-title="Çiçek ve Kurabiye" data-desc="Londra, 11.11.2028" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2">
+                    <div class="custom-frame d-flex justify-content-center ">
+                        <img src="https://picsum.photos/id/1040/300/200" class="img-fluid w-100 d-block" alt="dogaEv"
+                              data-title="Irish Tales" data-desc="Galway, 18.11.2028" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2">
+                    <div class="custom-frame d-flex justify-content-center ">
+                        <img src="https://picsum.photos/id/778/300/200" class="img-fluid w-100 d-block" alt="dogaGunes2"
+                              data-title="Güneþ ve Doða" data-desc="Seri 2, 07.07.2029" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2 ">
+                    <div class="custom-frame d-flex justify-content-center ">
+                        <img src="https://picsum.photos/id/859/300/200" class="img-fluid w-100 d-block" alt="kýrmýzýDuvar"
+                              data-title="Kýrmýzý ve Yaþam" data-desc="Ýspanya, 07.11.2029" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-2">
+                    <div class="custom-frame d-flex justify-content-center ">
+                        <img src="https://picsum.photos/id/797/300/200" class="img-fluid w-100 d-block" alt="semsiye"
+                              data-title="Gecedeki Þemsiye" data-desc="Portekiz, 27.11.2029" />
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 mb-2">
-                <div class="custom-frame d-flex justify-content-center ">
-                    <img src="https://picsum.photos/id/171/300/200" class="img-fluid w-100 d-block" />
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-2">
-                <div class="custom-frame d-flex justify-content-center ">
-                    <img src="https://picsum.photos/id/428/300/200" class="img-fluid w-100 d-block" />
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-2">
-                <div class="custom-frame d-flex justify-content-center ">
-                    <img src="https://picsum.photos/id/613/300/200" class="img-fluid w-100 d-block" />
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-2">
-                <div class="custom-frame d-flex justify-content-center ">
-                    <img src="https://picsum.photos/id/819/300/200" class="img-fluid w-100 d-block" />
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-2">
-                <div class="custom-frame d-flex justify-content-center ">
-                    <img src="https://picsum.photos/id/299/300/200" class="img-fluid w-100 d-block" />
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-2">
-                <div class="custom-frame d-flex justify-content-center ">
-                    <img src="https://picsum.photos/id/863/300/200" class="img-fluid w-100 d-block" />
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-2">
-                <div class="custom-frame d-flex justify-content-center ">
-                    <img src="https://picsum.photos/id/835/300/200" class="img-fluid w-100 d-block" />
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-2">
-                <div class="custom-frame d-flex justify-content-center ">
-                    <img src="https://picsum.photos/id/1040/300/200" class="img-fluid w-100 d-block" />
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-2">
-                <div class="custom-frame d-flex justify-content-center ">
-                    <img src="https://picsum.photos/id/778/300/200" class="img-fluid w-100 d-block" />
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-2 ">
-                <div class="custom-frame d-flex justify-content-center ">
-                    <img src="https://picsum.photos/id/859/300/200" class="img-fluid w-100 d-block" />
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-2">
-                <div class="custom-frame d-flex justify-content-center ">
-                    <img src="https://picsum.photos/id/797/300/200" class="img-fluid w-100 d-block" />
-                </div>
-            </div>
-        </div>
+        </main>
     </div>
-
-
 
 
 
@@ -119,10 +127,14 @@
     <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-body p-0 position-relative">
-                    <button type="button" class="btn-close position-absolute top-0 end-0 m-2 custom-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
-                    <img src="" id="modalImage" class="img-fluid w-100" />
+                <div class="modal-header py-1 px-2 bg-light" style="min-height: 40px; ">
+                    <h5 class="modal-title fst-italic ps-3 fw-bold text-muted" id="modalTitle">Baþlýk</h5>
+                    <button type="button" class="btn-close position-absolute top-0 end-0 m-2 me-3 custom-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
                 </div>
+                    <div class="modal-body p-0 position-relative bg-light" >
+                        <img src="" id="modalImage" class="img-fluid w-100" alt="" />
+                        <p class="py-1 small text-muted text-center mb-1" style="line-height: 1.1;" id="modalDesc"></p>
+                    </div>
             </div>
         </div>
     </div>
@@ -136,12 +148,21 @@
         document.addEventListener("DOMContentLoaded", function () {
             const images = document.querySelectorAll(".custom-frame img");
             const modalImage = document.getElementById("modalImage");
+            const modalTitle = document.getElementById("modalTitle");
+            const modalDesc = document.getElementById("modalDesc");
 
             images.forEach((img) => {
                 img.style.cursor = "pointer"; // týklanabilir olduðunu göster
                 img.addEventListener("click", function () {
-                    const src = img.getAttribute("src");
-                    modalImage.setAttribute("src", src);
+                    const largesrc = img.getAttribute("data-large") || img.getAttribute("src");
+                    modalImage.setAttribute("src", largesrc);
+                    //Baþlýk ve Açýklama
+                    const title = img.getAttribute("data-title") || "";
+                    const desc = img.getAttribute("data-desc") || "";
+
+                    modalTitle.textContent = title;
+                    modalDesc.textContent = desc;
+
                     const modal = new bootstrap.Modal(document.getElementById("imageModal"));
                     modal.show();
                 });
